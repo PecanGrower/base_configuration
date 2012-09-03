@@ -1,0 +1,1 @@
+These files represent the baseline configuration for rails application development.
