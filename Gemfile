@@ -10,8 +10,8 @@ gem 'will_paginate',	'3.0.3'
 gem 'bootstrap-will_paginate',	'0.0.6'
 
 group :development, :test do
-	gem 'rspec-rails', 	'2.10.0'
-	gem 'guard-rspec', 	'0.5.5'
+	gem 'rspec-rails', 	'2.11.0'
+	gem 'guard-rspec', 	'1.2.1'
 end
 
 group :development do
@@ -29,8 +29,8 @@ end
 group :test do
 	gem 'capybara',		 	'1.1.2'
 	gem 'rb-inotify',		'0.8.8'
-	gem 'libnotify',		'0.5.9'
-	gem 'guard-spork',	'0.3.2'
-	gem 'spork',				'0.9.0'
-	gem 'factory_girl_rails', '1.4.0'
+	gem 'libnotify',		'0.7.4'
+	gem 'guard-spork',	'1.10'
+	gem 'spork',				'0.9.2'
+	gem 'factory_girl_rails', '4.0.0'
 end

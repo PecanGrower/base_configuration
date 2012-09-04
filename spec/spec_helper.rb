@@ -18,6 +18,9 @@ Spork.prefork do
   Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
   RSpec.configure do |config|
+    # Factory Girl shortened syntax; FactoryGirl.create()-> create(), etc.
+
+    config.include FactoryGirl::Syntax::Methods
     # ## Mock Framework
     #
     # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:
